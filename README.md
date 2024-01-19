@@ -13,13 +13,21 @@
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
    ```
 
-2. **Install Windows Terminal** --- *In Powershell*
+2. **Install Windows Terminal** --- *In PowerShell*
 
    ```powershell
-   scoop install git gh; scoop bucket add extras; scoop install windows-terminal
+   scoop install git; scoop bucket add extras; scoop install windows-terminal
    ```
 
    > ***Note:*** *Git is required to add buckets to scoop, so git will need to be installed.*
+   
+3. **Clone this Repository**
+
+   ```
+   git clone https://github.com/
+   ```
+
+   
 
 ### Install with Installer in Portable Mode
 
