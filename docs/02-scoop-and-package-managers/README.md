@@ -1,47 +1,25 @@
-# Portable Set Up & Configurations
+# Package Management & Scoop
 
 ### For Windows Terminal
 
 ---
 
-> ***How to set up Windows Terminal in Portable Mode & back up all settings.***
+> ***Understanding package management for Windows and using Scoop as my primary Package manager***
 
 ---
 
 ## Subjects within this document
 
-1. Installing Windows Terminal as a portable app & Cloning Settings from GitHub
-2. Understanding Settings in Windows Terminal
-3. Understanding Cascading Package Management
+1. The Roles of different package managers
+2. Picking a daily driver shell for most purposes
+3. Using Scoop for Windows package management
+   - Optionally set a custom application install directory for scoop
+   - Managing SSH keys and passwords
+   - sEssential Apps to install with scoop
 
 ---
 
-## Installing Windows Terminal as a portable app & Cloning Settings from GitHub
-
-1. [**[Download the x86 image](https://aka.ms/terminal-canary-zip-x64)**]
-2. [Clone settings from GitHub](https://github.com/8rents/Windows-Terminal)
-
-**Name the downloaded folder `settings` and place it in the same directory as the exe and `.portable` file.**
-
-All Changes I make to settings for Windows Terminal should go into the `settings` folder and be pushed to GitHub.
-
----
-
-## Understanding Settings in Windows Terminal
-
-All settings are modified in the `settings/settings.json` file  in the Windows Terminal Folder. There is a nice interface within Windows Terminal to modify settings, however using the JSON file is going to be the quickest and most direct way to modify these settings.
-
-### The `state.json` file
-
-The other file that is default in the `settings` folder is `state.json`. This file is not worked with directly as often as `settings.json`. The state file handles things like:
-
-- Dialogs the user has chosen to hide with a [ ] Do not ask again checkbox, as proposed in issue 6641
-- Which dynamic profiles have been generated, as a way to resolve user dissatisfaction around profiles "coming back"
-- On-screen position of the window, active session state, layout, etc. for eventual restoration
-
----
-
-## Understanding Cascading Package Management
+## The Roles of Different Package Managers
 
 I will be using a number of different package managers with and for different purposes.
 
@@ -66,6 +44,8 @@ I will be using a number of different package managers with and for different pu
 **Wtf!?!?!  That's so many package managers and shells!?!?!** 
 
 Each one has a different purpose. I could install node through PowerShell, but we all know PowerShell sucks and something would likely go wrong.
+
+---
 
 ## My Daily Driver: ZSH
 
@@ -105,11 +85,15 @@ Scoop will be my primary package manager for Windows and PowerShell. It differs 
 
 ### GitHub with SSH Keys
 
+https://github.com/ScoopInstaller/Scoop/wiki/SSH-on-Windows
+
 https://github.com/ScoopInstaller/Scoop/wiki/GitHub-with-SSH-Key
 
 ---
 
 ### Essential Apps
+
+https://github.com/ScoopInstaller/Scoop/wiki/Example-Setup-Scripts
 
 ---
 

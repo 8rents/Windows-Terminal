@@ -1,10 +1,16 @@
-# Windows Terminal
+# Using Docker Containers
 
-> ***Windows Terminal, now available without admin and in portable mode.***
+### For Windows Terminal
+
+----
+
+> ***Containerized enviornments now available for windows without admin!***
 
 ---
 
+## Installing Docker
 
+## Installing a node container
 
 
 

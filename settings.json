@@ -204,6 +204,32 @@
             "yellow": "#B58900"
         },
         {
+<<<<<<< Updated upstream
+=======
+            "background": "#2D2A2E",
+            "black": "#1A181A",
+            "blue": "#1080D0",
+            "brightBlack": "#707070",
+            "brightBlue": "#22D5FF",
+            "brightCyan": "#7ACCD7",
+            "brightGreen": "#A4CD7C",
+            "brightPurple": "#AB9DF2",
+            "brightRed": "#F882A5",
+            "brightWhite": "#E3E1E4",
+            "brightYellow": "#E5D37E",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3AA5D0",
+            "foreground": "#E3E1E4",
+            "green": "#7FCD2B",
+            "name": "Sonokai Shusia",
+            "purple": "#7C63F2",
+            "red": "#F82F66",
+            "selectionBackground": "#FFFFFF",
+            "white": "#E3E1E4",
+            "yellow": "#E5DE2D"
+        },
+        {
+>>>>>>> Stashed changes
             "background": "#000000",
             "black": "#000000",
             "blue": "#3465A4",
