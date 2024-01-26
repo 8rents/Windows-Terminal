@@ -1,6 +1,10 @@
 # Windows Terminal Documentation
 
+---
+
 > ***Windows Terminal, now available without admin and in portable mode.***
+
+---
 
 ![](https://raw.githubusercontent.com/8rents/_/i/win-terminal.png)
 

@@ -1,6 +1,6 @@
 # Node.js, NVM & NPM 
 
-### For Windows Terminal
+### *For Windows Terminal*
 
 ---
 

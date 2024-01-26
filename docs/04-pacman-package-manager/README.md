@@ -1,6 +1,6 @@
 # Pacman Package Manager
 
-### For Windows Terminal
+### *For Windows Terminal*
 
 > ***Windows Terminal, now available without admin and in portable mode.***
 

@@ -1,6 +1,6 @@
 # Msys2 ZSH / Bash Shells
 
-### For Windows Terminal
+### *For Windows Terminal*
 
 ---
 

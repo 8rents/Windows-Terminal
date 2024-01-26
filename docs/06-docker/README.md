@@ -1,6 +1,6 @@
 # Using Docker Containers
 
-### For Windows Terminal
+### *For Windows Terminal*
 
 ----
 

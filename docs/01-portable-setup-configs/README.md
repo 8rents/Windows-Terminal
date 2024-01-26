@@ -1,12 +1,14 @@
 # Portable Set Up & Configurations
 
-### For Windows Terminal
+### *For Windows Terminal*
 
 ---
 
 > ***How to set up Windows Terminal in Portable Mode & back up all settings.***
 
 ---
+
+![](https://raw.githubusercontent.com/8rents/_/i/win-terminal.png)
 
 ## Subjects within this document
 

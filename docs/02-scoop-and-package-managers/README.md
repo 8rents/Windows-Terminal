@@ -1,6 +1,6 @@
 # Package Management & Scoop
 
-### For Windows Terminal
+### *For Windows Terminal*
 
 ---
 

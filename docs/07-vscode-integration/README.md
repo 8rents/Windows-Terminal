@@ -1,7 +1,5 @@
 # vsCode integration
 
-### For Windows Terminal
-
 ----
 
 > ***Integrating WT with the best IDE of the time***
