@@ -1,10 +1,14 @@
-# Msys2 ZSH / Bash Shells
+# ![Scoop Icon](https://raw.githubusercontent.com/8rents/_/i/h1/bash.png) Msys2 ZSH / Bash Shells
 
-### *For Windows Terminal*
+### in Windows Terminal
+
+> ***Finally, being able to effectively use ZSH / bash in Windows without WSL installed.***
 
 ---
 
-> ***Finally, being able to effectively use ZSH / bash in Windows without WSL installed.***
+***This article is part 3** in the [Windows Terminal Docs](..README.md)*
+
+**Previous Article:** [Part 2: Package Management & Scoop](02-scoop-and-package-managers)
 
 ---
 

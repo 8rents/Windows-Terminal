@@ -1,10 +1,14 @@
-# Using Docker Containers
+# ![Docker Icon](https://raw.githubusercontent.com/8rents/_/i/h1/docker.png) Using Docker Containers 
 
-### *For Windows Terminal*
-
-----
+### in Windows Terminal
 
 > ***Containerized enviornments now available for windows without admin!***
+
+---
+
+***This article is part 6** in the [Windows Terminal Docs](../README.md)*
+
+**Previous Article:** [Part 5: Node.js, NVM & NPM r](05-node-and-version-and-package-manager)
 
 ---
 
@@ -12,7 +16,11 @@
 
 ## Installing a node container
 
+---
 
+## Next Article
+
+[Part 7: Integrating vsCode with Windows Terminal](07-vscode-integration)
 
 ---
 

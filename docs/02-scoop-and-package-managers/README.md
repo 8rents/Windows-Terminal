@@ -1,10 +1,14 @@
-# Package Management & Scoop
+# ![Scoop Icon](https://raw.githubusercontent.com/8rents/_/i/h1/scoop.png) Package Management & Scoop 
 
-### *For Windows Terminal*
+### within Windows Terminal
+
+>  ***Understanding package management for Windows and using Scoop as my primary Package manager***
 
 ---
 
-> ***Understanding package management for Windows and using Scoop as my primary Package manager***
+***This article is part 2** in the [Windows Terminal Docs](..README.md)*
+
+**Previous Article:** [Part 1:Portable Set Up & Configuration](01-portable-setup-configs)
 
 ---
 
@@ -15,7 +19,7 @@
 3. Using Scoop for Windows package management
    - Optionally set a custom application install directory for scoop
    - Managing SSH keys and passwords
-   - sEssential Apps to install with scoop
+   - Essential Apps to install with scoop
 
 ---
 
@@ -97,9 +101,9 @@ https://github.com/ScoopInstaller/Scoop/wiki/Example-Setup-Scripts
 
 ---
 
+## Next Article
 
-
-
+[Part Msys2 ZSH / Bash Shells](03-msys2-bash-zsh-shells)
 
 ---
 
