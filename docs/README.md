@@ -1,4 +1,4 @@
-# ![Windows Terminal Icon](https://raw.githubusercontent.com/8rents/_/i/h1-icons/windows-terminal.png) Windows Terminal Docs
+# ![Windows Terminal Icon](https://raw.githubusercontent.com/8rents/_/i/h1/windows-terminal.png)  Windows Terminal Docs
 
 > ***My personal documentation for configuring and pimping out Windows Terminal***
 

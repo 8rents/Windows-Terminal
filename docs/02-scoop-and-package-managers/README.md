@@ -1,6 +1,6 @@
 # ![Scoop Icon](https://raw.githubusercontent.com/8rents/_/i/h1/scoop.png) Package Management & Scoop 
 
-### within Windows Terminal
+### *within Windows Terminal*
 
 >  ***Understanding package management for Windows and using Scoop as my primary Package manager***
 

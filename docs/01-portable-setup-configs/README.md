@@ -1,4 +1,4 @@
-# ![Windows Terminal Icon](https://raw.githubusercontent.com/8rents/_/i/h1/windows-terminal.png) Portable Set Up & Configurations 
+# ![Windows Terminal Icon](https://raw.githubusercontent.com/8rents/_/i/h1/windows-terminal.png)  Portable Set Up & Configurations 
 
 ### in Windows  Terminal
 
@@ -12,21 +12,24 @@
 
 ## Subjects within this document
 
-1. Installing Windows Terminal as a portable app & Cloning Settings from GitHub
-
+1. Installing Windows Terminal as "Portable"
 2. Understanding Settings in Windows Terminal
+3. What I keep in the `settings` folder
+4. Modifying Settings & Creating a Default Theme 
+5. Using `ms-appx://` for Relative Paths 
+6. Setting up a GitHub Repository to have settings backed up in the cloud
+7. How to restore your Windows Terminal Settings from GitHub
 
 
 ---
 
-## Installing Windows Terminal as a portable app & Cloning Settings from GitHub
+## Installing Windows Terminal as "Portable"
 
-1. [**[Download the x86 image](https://aka.ms/terminal-canary-zip-x64)**]
-2. [Clone settings from GitHub](https://github.com/8rents/Windows-Terminal)
-
-**Name the downloaded folder `settings` and place it in the same directory as the exe and `.portable` file.**
-
-All Changes I make to settings for Windows Terminal should go into the `settings` folder and be pushed to GitHub.
+1. **[Download the x86 image](https://aka.ms/terminal-canary-zip-x64)**
+2. Unzip the archive
+3. Make sure that there is a file called `.portable` inside the folder.
+4. Create a folder called `settings`
+5. Open Windows Terminal
 
 ---
 
@@ -44,13 +47,101 @@ The other file that is default in the `settings` folder is `state.json`. This fi
 
 ---
 
-### GitHub with SSH Keys
+## What I keep in the `settings` folder
 
-https://github.com/ScoopInstaller/Scoop/wiki/GitHub-with-SSH-Key
+I store these "How to" Documents, Fonts, my settings and state .json files, some alternate themes, icons and images within this folder. Basically anything that I want backed up.
 
 ---
 
-### Essential Apps
+## Modifying Settings & Creating a Default Theme 
+
+Open Settings and adjust the following:
+
+### Start Up Tab
+
+1. Select which should be your Default Profile
+
+### Interaction Tab
+
+1. Enable automatically copy text to clipboard
+2. Set plain text as the format that will be copied
+
+### Appearance Tab
+
+1. Use Acrylic Material: to Yes
+2. Tab Width mode to Title Length
+
+### Color Schemes Tab
+
+1. Choose your desired default color scheme
+2. Click Save on the Bottom
+
+### Set up the Default Profile
+
+Under Profiles, Select Defaults
+
+1. Set up a default starting directory
+   Keep in mind you can use a relative link here like this:
+
+   ```powershell
+   # This points to the same drive that 
+   # Windows Terminal is running on
+   \Devices\WPL
+   ```
+
+### Under Defaults > Additional Settings > Appearance
+
+1. Choose the **default color scheme**
+   **I chose "One Half Dark"**
+2. Run the Hack fonts windows installer
+3. Select Hack Font
+
+---
+
+## Using `ms-appx://` for Relative Paths 
+
+I kep my icons in `settings > icons > shells > file.png`. When choosing an icon for a new profile, you can create a relative link from Windows Terminal root by using `ms-appx//:`
+
+So my ZSH icon in the settings folder would be referenced at `ms-appx:///settings/icons/shells/zsh.png`
+
+---
+
+## Setting up a GitHub Repository to have settings backed up in the cloud
+
+Within The Windows Terminal Folder, Open the `settings` folder. This folder will hold all configurations for Windows Terminal. 
+
+### Creating a new Repository & Backing  up settings
+
+The simplest way to create a GitHub Repository to hold these files is to: 
+
+1. Download the [GitHub Desktop app for Windows](https://central.github.com/deployments/desktop/desktop/latest/win32).
+2. [Sign up for a GitHub account](https://github.com/join) if you don't already have one.
+3. Link the Desktop App and your account
+4. In the Desktop app, create a new Repository and select the `settings` folder within the Windows Terminal directory. 
+5. Add any more files that you want included in the Repository
+6. In the desktop app, add all the files and commit them.
+7. Push the repository to GitHub.
+
+**Your settings are now backed up.!**
+
+---
+
+## How to restore your Windows Terminal Settings from GitHub
+
+1. [Download the GitHub Desktop App](https://central.github.com/deployments/desktop/desktop/latest/win32) and get signed in
+2. [Download Windows Terrminal](https://aka.ms/terminal-canary-zip-x64) & Unpack the .zip file
+3. In the Unpacked folder delete the `settings` folder
+4. Clone the Windows Terminal GitHub Repository to the Windows Terminal Folder you unzipped and make sure to name it `settings`. Make sure that it's placed in the same directory as the `.portable` file.
+5. Open Windows Terminal
+
+**Your Settings have been restored!**
+
+---
+
+## Links for Further Exploration
+
+- [GitHub with SSH Keys](https://github.com/ScoopInstaller/Scoop/wiki/GitHub-with-SSH-Key)
+- [GitHub Desktop for Windows - Download Link](https://central.github.com/deployments/desktop/desktop/latest/win32)
 
 ---
 
