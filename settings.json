@@ -20,7 +20,7 @@
             "cursorShape": "vintage",
             "font": 
             {
-                "face": "FiraCode Nerd Font Mono",
+                "face": "Hack Nerd Font",
                 "size": 11.0,
                 "weight": "normal"
             },
@@ -31,12 +31,12 @@
             {
                 "font": 
                 {
-                    "face": "FiraCode Nerd Font Mono"
+                    "face": "Hack Nerd Font"
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
-                "startingDirectory": "D:\\Devices\\WPL"
+                "startingDirectory": "D:\\Repo\\Devices\\Windows"
             },
             {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",

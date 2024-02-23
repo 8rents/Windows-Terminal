@@ -1,7 +1,11 @@
 {
+	"dismissedMessages" : 
+	[
+		"closeOnExitInfo"
+	],
 	"generatedProfiles" : 
 	[
 		"{b453ae62-4e3d-5e58-b989-0a998ec441b8}"
 	],
-	"settingsHash" : "2206dc56c5ef375c-01da5ebd8904ff5e"
+	"settingsHash" : "411615701ddcf8e2-01da6609c1633c81"
 }
