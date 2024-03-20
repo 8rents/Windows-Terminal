@@ -6,13 +6,13 @@
 
 ## Table of Contents
 
-1. [Installation & Portable Set up](01-portable-setup-configs)
-2. [Using Msys2](02-scoop-and-package-managers)
-3. [Configuring Bash / ZSH](03-msys2-bash-zsh-shells)
-4. [Pacman Package manager](04-pacman-package-manager)
-5. [Running node.js](05-node-and-version-and-package-manager)
-6. [Running Docker & Compose](06-docker)
-7. [vsCode Integration](07-vscode-integration)
+1. [Installation & Portable Set up](01-portable-setup-configs/)
+2. [Using Msys2](02-scoop-and-package-managers/)
+3. [Configuring Bash / ZSH](03-msys2-bash-zsh-shells/)
+4. [Pacman Package manager](04-pacman-package-manager/)
+5. [Running node.js](05-node-and-version-and-package-manager/)
+6. [Running Docker & Compose](06-docker/)
+7. [vsCode Integration](07-vscode-integration/)
 
 ---
 

@@ -1,37 +1,10 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
-    "$schema": "https://raw.githubusercontent.com/microsoft/terminal/main/doc/cascadia/profiles.schema.json",
-    "actions": 
-    [
-        {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        }
-    ],
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
     "copyFormatting": "none",
     "copyOnSelect": true,
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{6f0ee3d1-ac4f-48ca-bcf5-a9795f9942d2}",
     "newTabMenu": 
     [
         {
@@ -43,43 +16,57 @@
         "defaults": 
         {
             "adjustIndistinguishableColors": "indexed",
-            "antialiasingMode": "cleartype",
-            "bellStyle": "window",
             "colorScheme": "One Half Dark",
+            "cursorShape": "filledBox",
             "font": 
             {
                 "face": "Consolas",
-                "size": 8.0
+                "size": 10.0,
+                "weight": "normal"
             },
+            "intenseTextStyle": "all",
+            "opacity": 96,
+            "padding": "10",
             "scrollbarState": "hidden",
-            "startingDirectory": "\\Devices\\WPL"
+            "startingDirectory": "D:\\Repo\\Devices\\WPL",
+            "unfocusedAppearance": {},
+            "useAcrylic": true
         },
         "list": 
         [
             {
-		"name": "Windows PowerShell"
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": false
-            },
-	    {
-		"name": "Bash",
-                "commandline": "\Settings\OS\Windows\Installed\msys2\msys2_shell.cmd -defterm -here -no-start -msys",
-                "guid": "{17da3cac-b318-431e-8a3e-7fcdefe6d114}",
-                "hidden": false,
-                "icon": "ms-appx:///settings/icons/shells/bash.png"
-                
+                "commandline": "%USERPROFILE%\\scoop\\apps\\msys2\\current\\msys2_shell.cmd -defterm -here -no-start -msys2 -shell bash",
+                "guid": "{6f0ee3d1-ac4f-48ca-bcf5-a9795f9942d2}",
+                "icon": "ms-appx:///settings/icons/bash.png",
+                "name": "bash"
             },
             {
-		"name": "Command Prompt",
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "commandline": "%USERPROFILE%\\scoop\\apps\\msys2\\current\\msys2_shell.cmd -defterm -here -no-start -msys2 -shell zsh",
+                "guid": "{9e554928-79f1-5996-b101-1b4e7acf32a6}",
+                "icon": "ms-appx:///settings/icons/zsh.png",
+                "name": "zsh"
+            },
+            {
+                "commandline": "%USERPROFILE%\\scoop\\apps\\msys2\\current\\msys2_shell.cmd -defterm -here -no-start -msys2 -shell fish",
+                "guid": "{3e42746f-e723-54e2-ae37-47dedbfc871e}",
+                "icon": "ms-appx:///settings/icons/fish.png",
+                "name": "fish"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "icon": "ms-appx:///settings/icons/powershell.png",
+                "name": "PowerShell"
+            },
+            {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": true,
+                "name": "Command Prompt"
             },
             {
-		"name": "Azure Cloud Shell",
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": true,
+                "icon": "ms-appx:///ProfileIcons/{b453ae62-4e3d-5e58-b989-0a998ec441b8}.png",
+                "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
             }
         ]
@@ -294,7 +281,7 @@
             "yellow": "#808000"
         }
     ],
-    "tabWidthMode": "titleLength",
+    "tabWidthMode": "compact",
     "themes": [],
     "useAcrylicInTabRow": true
 }
