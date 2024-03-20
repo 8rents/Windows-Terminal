@@ -87,11 +87,7 @@ Scoop will be my primary package manager for Windows and PowerShell. It differs 
 
 ---
 
-### GitHub with SSH Keys
 
-https://github.com/ScoopInstaller/Scoop/wiki/SSH-on-Windows
-
-https://github.com/ScoopInstaller/Scoop/wiki/GitHub-with-SSH-Key
 
 ---
 

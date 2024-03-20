@@ -96,6 +96,14 @@ Under Profiles, Select Defaults
 2. Run the Hack fonts windows installer
 3. Select Hack Font
 
+## "*Cascade*" Default Settings into Shell Specific Settings
+
+Under *Profiles* in the *Settings* View, There is the *Defaults* tab. Configure the *defaults* tab first and foremost. Settings here will "cascade" down to each additional shell you configure."
+
+For example: if you want multiple shells to have the same starting directory, set it in defaults,m rather than setting it ion several places at once on a per shell basis.
+
+ 
+
 ---
 
 ## Using `ms-appx://` for Relative Paths 
@@ -135,6 +143,8 @@ The simplest way to create a GitHub Repository to hold these files is to:
 5. Open Windows Terminal
 
 **Your Settings have been restored!**
+
+
 
 ---
 

@@ -64,7 +64,7 @@ Below the `[`
             },
 ```
 
-#### Adding a custom icon to the bash profile
+#### Adding a custom icon to the `bash` profile
 
 First Create a new icon file (PNG is good) and save it into the `windows-terminal/settings/icon/bash.png`						
 
@@ -129,7 +129,111 @@ cd () {
 }
 ```
 
-‎
+## Alias `--noconfirm` for use with `	pacman`
+
+Having to hit `Y` every single time you want to install something is super annoying. Set up an `alias` in your `.bashrc` file.
+
+```bash
+alias pacman="pacman --noconfirm"
+```
+
+> *Now you can skip the annoying confirmation*
+
+## Adding `zsh` & the `Fish` Shell to Windows Terminal
+
+In the `settings.json` file in the `settings` folder of Windows Terminal, there is an array `list` (*It opens and closes with square brackets*).
+
+Within the `list` array. Add the following:
+
+> **Important Note:** *Formatting is everything with `json` files. If there is an item following the preview one within an array or object context a comma is required. **Make sure to get the formatting correct otherwise the file is not going to be interpreted properly.***
+
+### Adding the Bash Shell
+
+The following snippet is for the bash shell. Note that the `commandline` path is only going to be as such if `msys2`was installed via **scoop**.
+
+```bash
+{
+	"commandline": "%USERPROFILE%\\scoop\\apps\\msys2\\current\\msys2_shell.cmd -defterm -here -no-start -msys2 -shell bash",
+	"guid": "{6f0ee3d1-ac4f-48ca-bcf5-a9795f9942d2}",
+	"icon": "ms-appx:///settings/icons/bash.png",
+	"name": "bash"
+},
+```
+
+> **Note about icons:** *I simply photoshopped myself some icons that I liked for each shell and dropped the finished `.png` files of them into a `png`* folder within my `settings`folder. Then I referenced them out of there.
+>
+> ```
+> ms-appx:///settings/icons/bash.png
+> ```
+>
+> `ms-appx` simply means within the Microsoft app.
+
+#### Adding the ZSH Shell
+
+Same drill as above except with the zsh shell.
+
+```bash
+{
+	"commandline": "%USERPROFILE%\\scoop\\apps\\msys2\\current\\msys2_shell.cmd -defterm -here -no-start -msys2 -shell zsh",
+	"guid": "{9e554928-79f1-5996-b101-1b4e7acf32a6}",
+	"icon": "ms-appx:///settings/icons/zsh.png",
+	"name": "zsh"
+},
+```
+
+### Adding the Fish Shell to Windows Terminal
+
+Same as the 2 above. In the settings file add:
+
+```bash
+{
+	"commandline": "%USERPROFILE%\\scoop\\apps\\msys2\\current\\msys2_shell.cmd -defterm -here -no-start -msys2 -shell fish",
+	"guid": "{3e42746f-e723-54e2-ae37-47dedbfc871e}",
+	"icon": "ms-appx:///settings/icons/fish.png",
+	"name": "fish"
+}
+```
+
+
+
+## ‎Installing and configuring Z Shell (aka ZSH)
+
+First make sure that `git` is installed via `pacman`.
+
+```bash
+pacman -S git
+```
+
+From within the bash shell and pacman install `zsh`. 
+
+```bash
+pacman -S zsh
+```
+
+> ***Hopefully you took my advice and set an alias for `--noconfirm`***.
+
+### Installing `oh-my-zsh`
+
+Oh My ZSH is the best plugin manager / framework for any shell past, present or future.
+
+First make sure that `wget` & `git` have been installed via `pacman`
+
+```bash
+pacman -S wget
+```
+
+> **NOTE:** *If for some reason you haven't installed `git` or `zsh`, make sure to install those at the same time.*
+
+#### Then install `oh-my-zsh` via `wget`
+
+```bash
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+```
+
+
+
+
+
 ---
 
 **🤍 2023 [Brenton Holiday](https://brenton.holiday)**
