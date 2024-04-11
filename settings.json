@@ -1,10 +1,10 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
-    "$schema": "https://raw.githubusercontent.com/microsoft/terminal/main/doc/cascadia/profiles.schema.json",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": [],
     "copyFormatting": "none",
     "copyOnSelect": true,
-    "defaultProfile": "{6f0ee3d1-ac4f-48ca-bcf5-a9795f9942d2}",
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "newTabMenu": 
     [
         {
