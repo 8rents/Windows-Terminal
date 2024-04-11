@@ -29,7 +29,13 @@ scoop install msys2
 
 > *By Default this installs msys2 to `~\scoop\apps\msys2`*
 
+---
+
 ## Understanding the different environments of msys2
+
+**Since I'm not going to be compiling C code or running custom LLVM containers, I'm just going to run in plain `msys` mode.**
+
+If you're interested in the differences, here's the list:
 
 - `msys` and `msys2` (same thing now) - the base MSYS2 tool; all other environments below inherit from this one; contains the GCC 64-bit compiler and Cygwin C library
 - `mingw32` - Minimalist GNU for Windows 32-bit; contains GCC 32-bit compiler
@@ -38,6 +44,8 @@ scoop install msys2
 - `clang64` - contains the LLVM/Clang 64-bit compiler
 - `clang32` - contains the LLVM/Clang 32-bit compiler
 - `clangarm64` - contains the LLVM/Clang 64-bit ARM (AArch64) compiler
+
+---
 
 ## Creating profiles for a msys2 environment in Windows Terminal
 
@@ -65,21 +73,19 @@ Below the `[`
             },
 ```
 
-#### Adding a custom icon to the `bash` profile
+### Adding a custom icon to the `bash` profile
 
-First Create a new icon file (PNG is good) and save it into the `windows-terminal/settings/icon/bash.png`						
+First Create a new icon file (PNG is good) and save it to: `windows-terminal/settings/icon/bash.png`						
 
 1. At the end of the `"commandline"` line, after the last double quote, type a comma `,`
-2. Make a new line with 2 tabs and then enter
-3. ```json
+2. Make a new line with 2 tabs and then enter:
+```json
 "icon": "ms-appx:///settings/icons/bash.png"
 ```
 
-*`ms-appx:///` means from within the app folder itself*
+> **Note:** The`ms-appx:///` means from within the app folder itself.
 
-### Editing your bash `.profile` file
-
-Your profile file is 
+## Profile Files and Default Bash Files
 
 Within your default (Home) folder for the shell, the first time that you run it, it will create several profile files.
 
@@ -89,7 +95,7 @@ To get to your user home folder, run the following:
 cd ~ && ls -1a
 ```
 
-You should see the following output:
+**You should see the following output:**
 
 ```bash
 .
@@ -101,14 +107,18 @@ You should see the following output:
 .profile
 ```
 
+**What each of these are:**
+
 - `.bash_history` - Log of each command sent to the Bash shell
 - `.bash_logout` - This file is run when you log out of the shell
-em
+  em
 - `.bash_profile` - Used to set up environment and configurations when logging in to the system. Global to all Bash shell sessions.
 - `.bashrc` - Used to set up and configure the Bash shell and run when the user logs into the shell (or creates a new shell window). Specific to the current shell session.
 - `.profile` - Used to set up environment and configurations when logging in to the system. Global to all shells.
 
-### Creating an alias to a command with `.bashrc`
+---
+
+## Creating an alias to a command with `.bashrc`
 
 Lets create a simple alias to a common command.
 
@@ -121,34 +131,58 @@ nano .bashrc
 Add the following to the file:
 
 ```bash
-cd () {
-    builtin cd "$@" || return
-
-    case $PWD in
-        "$HOME"|"$HOME"/*) ls -1
-    esac
-}
+alias l="ls -1FUh"
 ```
 
-## Alias `--noconfirm` for use with `	pacman`
-
-Having to hit `Y` every single time you want to install something is super annoying. Set up an `alias` in your `.bashrc` file.
+Now just pressing `l` will display a listing like:
 
 ```bash
-alias pacman="pacman --noconfirm"
+LICENSE
+README.md
+1-powershell-sync.ps1
+2-bash-sync.sh
+3-zsh-sync.sh
+scoop-installer.ps1
 ```
 
-> *Now you can skip the annoying confirmation*
+**What are `-1FUh` options?**
 
-## Adding `zsh` & the `Fish` Shell to Windows Terminal
+- `1` - One file per lin
+- `F` - append indicator (one of */=>@|) to entries
+- `U` - do not sort; list entries in directory order
+- `h` | `--human-readable` - with -l and -s, print sizes like 1K 234M 2G etc.
+
+### Another Alias (Long List)
+
+Print the same style list but with more information
+
+```bash
+alias ll="ls -lFUh"
+```
+
+### Yet Another Alias (All Files)
+
+Let's make another alias for showing all (including hidden files) in the standard one entry per line.
+
+```bash
+alias la="ls -1aFUh"
+```
+
+### And one more for List **all files in a long list**
+
+```bash
+alias la="ls -laFUh"
+```
+
+---
+
+## Adding the Bash Shell to Windows Terminal `settings.json` file
 
 In the `settings.json` file in the `settings` folder of Windows Terminal, there is an array `list` (*It opens and closes with square brackets*).
 
 Within the `list` array. Add the following:
 
 > **Important Note:** *Formatting is everything with `json` files. If there is an item following the preview one within an array or object context a comma is required. **Make sure to get the formatting correct otherwise the file is not going to be interpreted properly.***
-
-### Adding the Bash Shell
 
 The following snippet is for the bash shell. Note that the `commandline` path is only going to be as such if `msys2`was installed via **scoop**.
 
@@ -163,15 +197,19 @@ The following snippet is for the bash shell. Note that the `commandline` path is
 
 > **Note about icons:** *I simply photoshopped myself some icons that I liked for each shell and dropped the finished `.png` files of them into a `png`* folder within my `settings`folder. Then I referenced them out of there.
 >
-> ```
+> ```bash
 > ms-appx:///settings/icons/bash.png
 > ```
 >
-> `ms-appx` simply means within the Microsoft app.
+> **Note:** `ms-appx` simply means within the Microsoft app.
 
-#### Adding the ZSH Shell
+**Here's my bash icon:** ![bash icon](../../icons/bash.png)
 
-Same drill as above except with the zsh shell.
+---
+
+## Adding the ZSH Shell
+
+Same drill as above except with the ZSH shell.
 
 ```bash
 {
@@ -182,7 +220,11 @@ Same drill as above except with the zsh shell.
 },
 ```
 
-### Adding the Fish Shell to Windows Terminal
+**Here's the ZSH Icon:** ![ZSH icon](../../icons/zsh.png)
+
+---
+
+## Adding the Fish Shell to Windows Terminal
 
 Same as the 2 above. In the settings file add:
 
@@ -195,9 +237,15 @@ Same as the 2 above. In the settings file add:
 }
 ```
 
+**Here's the FISH Icon:** ![fish shell icon](../../icons/fish.png)
 
+---
 
-## ‎Installing and configuring Z Shell (aka ZSH)
+## Installing packages with Pacman
+
+Now it's time to actually install `zsh` and `fish`. We will also need `git` and a few other packages. We want to have `oh-my-zsh` installed in the end.
+
+### Install with `-S` (sync)
 
 First make sure that `git` is installed via `pacman`.
 
@@ -205,15 +253,17 @@ First make sure that `git` is installed via `pacman`.
 pacman -S git
 ```
 
+Type `Y` to confirm the install.
+
 From within the bash shell and pacman install `zsh`. 
 
 ```bash
 pacman -S zsh
 ```
 
-> ***Hopefully you took my advice and set an alias for `--noconfirm`***.
+Type `Y` to confirm the install again.
 
-### Installing `oh-my-zsh`
+## Installing `oh-my-zsh`
 
 Oh My ZSH is the best plugin manager / framework for any shell past, present or future.
 
@@ -223,7 +273,7 @@ First make sure that `wget` & `git` have been installed via `pacman`
 pacman -S wget
 ```
 
-> **NOTE:** *If for some reason you haven't installed `git` or `zsh`, make sure to install those at the same time.*
+We will make an alias in the next chapter so you won't have to keep pressing `Y`.
 
 #### Then install `oh-my-zsh` via `wget`
 
