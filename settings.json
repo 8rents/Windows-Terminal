@@ -1,6 +1,6 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
-    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "$schema": "https://raw.githubusercontent.com/microsoft/terminal/main/doc/cascadia/profiles.schema.json",
     "actions": [],
     "copyFormatting": "none",
     "copyOnSelect": true,
@@ -59,7 +59,7 @@
             {
                 "commandline": "powershell.exe -nologo -noprofile -executionpolicy bypass",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "icon": "ms-appx:///settings/icons/powershell.png",
+                "icon": "ms-appx:///settings/icons/pwsh-yellowl.png",
                 "name": "PWSH (No Profile)"
             },
             {
