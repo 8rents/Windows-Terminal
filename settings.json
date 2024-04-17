@@ -59,7 +59,7 @@
             {
                 "commandline": "powershell.exe -nologo -noprofile -executionpolicy bypass",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "icon": "ms-appx:///settings/icons/pwsh-yellowl.png",
+                "icon": "ms-appx:///settings/icons/pwsh.png",
                 "name": "PWSH (No Profile)"
             },
             {
@@ -86,6 +86,18 @@
                 "name": "PWSH Sync",
                 "snapOnInput": true,
                 "startingDirectory": "D:\\Repo\\Devices\\WPL\\Sync"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "automatic",
+                "commandline": "powershell.exe -nologo -noprofile -executionpolicy bypass",
+                "guid": "{9df26161-c224-4907-a227-be504ee1a1a4}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///settings/icons/pwsh-green.png",
+                "name": "PowerShell (Profile)",
+                "snapOnInput": true
             }
         ]
     },
