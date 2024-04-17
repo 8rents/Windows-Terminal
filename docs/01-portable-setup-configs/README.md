@@ -1,12 +1,12 @@
 # ![Windows Terminal Icon](https://raw.githubusercontent.com/8rents/_/i/h1/windows-terminal.png)  Portable Set Up & Configurations 
 
-### in Windows  Terminal
+**in [Windows Terminal](../)**
 
 > ***How to set up Windows Terminal in Portable Mode & back up all settings.***
 
 ---
 
-[Windows Terminal --**Table of Contents**](../README.md)
+This is **Part 1** in [**Windows Terminal Docs**](../)
 
 ---
 
@@ -151,13 +151,12 @@ The simplest way to create a GitHub Repository to hold these files is to:
 ## Links for Further Exploration
 
 - [GitHub with SSH Keys](https://github.com/ScoopInstaller/Scoop/wiki/GitHub-with-SSH-Key)
-- [GitHub Desktop for Windows - Download Link](https://central.github.com/deployments/desktop/desktop/latest/win32)
+- [GitHub Desktop for Windows - Download Link*](https://central.github.com/deployments/desktop/desktop/latest/win32)*
 
 ---
 
-## Next  Article
-
-[Part 2: Package Management & Scoop ](02-scoop-and-package-managers)
+**Next** ▶
+[**Part 2:** Package Management & Scoop ](02-scoop-and-package-managers)
 
 
 

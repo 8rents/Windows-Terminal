@@ -4,10 +4,19 @@
 
 ---
 
-## Integrating Windows Terminal with vsCode
+This is **part 7** in [**Windows Terminal Docs**](../)
 
-
+**◀ Previous** 
+[**Part 6**: Docker](../06-docker/)
 
 ---
 
-**🤍 2023 [Brenton Holiday](https://brenton.holiday)**
+## Integrating Windows Terminal with vsCode
+
+---
+
+***This is the end of Windows Terminal Docs***
+
+---
+
+**🤍 2024 [Brenton Holiday](https://brenton.holiday)**
