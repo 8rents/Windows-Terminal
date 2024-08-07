@@ -13,6 +13,10 @@ This is **part 6** in [**Windows Terminal Docs**](../)
 
 ---
 
+Well, it doesn’t appear that Docker is going to work out on a Limited Windows box. That’s too bad as I don’t think VM’s will even be a close option if containers aren’t…. 
+
+*Moving on…*
+
 ## Installing Docker
 
 ## Installing a node container

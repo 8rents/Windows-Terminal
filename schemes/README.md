@@ -1,8 +1,10 @@
 # Color Schemes
 
-### For Windows Terminal
+> *This is a directory of my favorite color schemes for Windows Terminal and terminals in general.*
 
-> ***This is a directory of my favorite color schemes for Windows Terminal and terminals in general.***
+---
+
+
 
 ---
 

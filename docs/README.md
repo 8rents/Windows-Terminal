@@ -23,6 +23,10 @@
 - **[Windows Terminal Themes](https://windowsterminalthemes.dev/)**
 - [GitHub with SSH Keys](https://github.com/ScoopInstaller/Scoop/wiki/GitHub-with-SSH-Key)
 
+## GitHub Repository
+
+- https://github.com/8rents/Windows-Terminal
+
 ------
 
 **🤍 2024 [Brenton Holiday](https://brenton.holiday)**

@@ -1,8 +1,12 @@
-# Themes (and also Schemes)
+# Themes (and also Schemes) for Windows Terminal
 
-### For Windows Terminal
+> *Windows Terminal, now available without admin and in portable mode.*
 
-> ***Windows Terminal, now available without admin and in portable mode.***
+---
+
+**Home** **|** [Documentation](docs/README.md) **|** [Images](images/README.md)
+
+---
 
 ![](https://raw.githubusercontent.com/8rents/_/i/win-terminal.png)
 
@@ -16,7 +20,9 @@ How to load a theme from the
 
 **Right Here:** https://windowsterminalthemes.dev/
 
+## GitHub Repository
 
+- https://github.com/8rents/Windows-Terminal
 
 ------
 
