@@ -2,7 +2,11 @@
 
 **in [Windows Terminal](../)**
 
-> ***How to set up Windows Terminal in Portable Mode & back up all settings.***
+> *How to set up Windows Terminal in Portable Mode & back up all settings.*
+
+---
+
+[Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
 
 ---
 

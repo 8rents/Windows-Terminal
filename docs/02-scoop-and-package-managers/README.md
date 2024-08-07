@@ -2,7 +2,11 @@
 
 **in [Windows Terminal](../)**
 
->  ***Understanding package management for Windows and using Scoop as my primary Package manager***
+>  *Understanding package management for Windows and using Scoop as my primary Package manager*
+
+---
+
+[Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
 
 ---
 

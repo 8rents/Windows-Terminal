@@ -4,6 +4,10 @@
 
 ---
 
+[Home](../../README.md) **|** [Documentation](../../docs/README.md) **|** **[Images](../../images/README.md)**
+
+---
+
 This “top level” settings folder will be [https://github.com/8rents/Windows-Terminal](https://github.com/8rents/Windows-Terminal) to reflect my current working copy of Windows Terminal.
 
 ## Windows terminal settings folder

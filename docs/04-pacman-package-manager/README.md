@@ -2,7 +2,11 @@
 
 **in msys2 bash in [Windows Terminal](../)**
 
-> ***Pacman is the default package manager for Arch Linux. It's available to use through msys2 installed on Windows.***
+> *Pacman is the default package manager for Arch Linux. It's available to use through msys2 installed on Windows.*
+
+---
+
+[Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
 
 ---
 

@@ -6,6 +6,10 @@
 
 ---
 
+[Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
+
+---
+
 This is **part 3** in [**Windows Terminal Docs**](../)
 
 **◀ Previous** 

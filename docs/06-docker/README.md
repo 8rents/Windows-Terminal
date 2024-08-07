@@ -2,7 +2,11 @@
 
 **in [Windows Terminal](../)**
 
-> ***Containerized enviornments now available for windows without admin!***
+> *Containerized enviornments now available for windows without admin!*
+
+---
+
+[Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
 
 ---
 

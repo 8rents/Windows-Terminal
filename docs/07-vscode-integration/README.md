@@ -1,6 +1,10 @@
 # ![Windows Terminal Icon](https://raw.githubusercontent.com/8rents/_/i/h1-icons/windows-terminal.png) Integrating vsCode with Windows Terminal 
 
-> ***Integrating WT with the best IDE of the time***
+> *Integrating WT with the best IDE of the time*
+
+----
+
+[Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
 
 ---
 

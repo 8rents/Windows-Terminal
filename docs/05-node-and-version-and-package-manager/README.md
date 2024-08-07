@@ -1,8 +1,12 @@
 # ![Nodejs Icon](https://raw.githubusercontent.com/8rents/_/i/h1/nodejs.png)  Node.js, NVM & NPM 
 
-**in [Windows Terminal](../)**
+**in [Windows Terminal**](../)****
 
-> ***Node, javascript on the server. now we can code thee from within Windows. Now we just need some effective version management as well as package management***
+> *Node, javascript on the server. now we can code thee from within Windows. Now we just need some effective version management as well as package management*
+
+---
+
+[Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
 
 ---
 

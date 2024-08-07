@@ -4,7 +4,7 @@
 
 ---
 
-[Home](./README.md) **|** [Documentation](docs/README.md) **|** **Images**
+[Home](../README.md) **|** [Documentation](../docs/README.md) **|** **Images**
 
 ----
 
