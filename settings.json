@@ -16,6 +16,10 @@
         "defaults": 
         {
             "adjustIndistinguishableColors": "indexed",
+            "backgroundImage": "E:\\Repo\\Apps\\Windows\\Portable\\Windows Terminal\\settings\\images\\backgrounds\\Animated\\spinning-stacks.gif",
+            "backgroundImageAlignment": "bottomRight",
+            "backgroundImageOpacity": 0.06,
+            "backgroundImageStretchMode": "uniformToFill",
             "colorScheme": "One Half Dark",
             "cursorShape": "underscore",
             "font": 
@@ -30,7 +34,6 @@
             "padding": "10",
             "scrollbarState": "hidden",
             "startingDirectory": "\\Repo\\Devices\\WPL",
-            "unfocusedAppearance": {},
             "useAcrylic": true
         },
         "list": 
@@ -50,6 +53,10 @@
                 "startingDirectory": "\\Repo\\Devices\\WPL"
             },
             {
+                "backgroundImageAlignment": "bottomRight",
+                "backgroundImageOpacity": 0.11,
+                "backgroundImageStretchMode": "none",
+                "colorScheme": "One Half Dark",
                 "commandline": "%USERPROFILE%\\scoop\\apps\\msys2\\current\\msys2_shell.cmd -defterm -here -no-start -msys2 -shell fish",
                 "guid": "{3e42746f-e723-54e2-ae37-47dedbfc871e}",
                 "icon": "ms-appx:///settings/icons/fish.png",
@@ -57,10 +64,14 @@
                 "startingDirectory": "\\Repo\\Devices\\WPL"
             },
             {
+                "backgroundImage": "E:\\Repo\\Apps\\Windows\\Portable\\Windows Terminal\\settings\\images\\backgrounds\\animated\\white-cubes.gif",
+                "backgroundImageAlignment": "center",
+                "backgroundImageOpacity": 0.04,
                 "commandline": "powershell.exe -nologo -noprofile -executionpolicy bypass",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "icon": "ms-appx:///settings/icons/pwsh.png",
-                "name": "PWSH (No Profile)"
+                "name": "PWSH (No Profile)",
+                "startingDirectory": "\\Repo\\Devices\\WPL\\Sync"
             },
             {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -85,7 +96,7 @@
                 "icon": "ms-appx:///settings/icons/pwsh-sync.png",
                 "name": "PWSH Sync",
                 "snapOnInput": true,
-                "startingDirectory": "D:\\Repo\\Devices\\WPL\\Sync"
+                "startingDirectory": "\\Repo\\Devices\\WPL\\Sync"
             },
             {
                 "altGrAliasing": true,
