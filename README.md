@@ -1,8 +1,14 @@
-# ![Windows Terminal Icon](https://raw.githubusercontent.com/8rents/_/i/h1/windows-terminal.png) Windows Terminal 
+# ![Windows Terminal Icon](https://raw.githubusercontent.com/8rents/_/i/h1/windows-terminal.png) Windows Terminal Settings
 
-> ***My personal documentation for configuring and pimping out Windows Terminal
+> *My personal documentation for configuring and pimping out Windows Terminal*
 
 ---
+
+**Home** **|** [Documentation](docs/README.md) **|** [Images](images/README.md)
+
+----
+
+The `settings` that you are currently inside is all that is needed to sync a brand new version of *Windows Terminal* with my settings. The `settings` folder has everythign that is needed.
 
 ## Windows terminal settings folder
 

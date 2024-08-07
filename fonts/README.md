@@ -1,48 +1,29 @@
-# Nerd Fonts
+# ![Windows Terminal Icon](https://raw.githubusercontent.com/8rents/_/i/h1/windows-terminal.png) Windows Terminal 
 
-This is an archived font from the Nerd Fonts release v3.2.1.
+> ***My personal documentation for configuring and pimping out Windows Terminal
 
-For more information see:
-* https://github.com/ryanoasis/nerd-fonts/
-* https://github.com/ryanoasis/nerd-fonts/releases/latest/
+---
 
-# Fira Mono
+## Windows terminal settings folder
 
-**Fira Mono** Mozilla's new typeface, used in Firefox OS
+All settings information is stored in the `settings.json` file. 
 
-For more information have a look at the upstream website: https://github.com/mozilla/Fira
+### Additional Directories with the s
 
-Version: 3.206
+- [**docs**](docs/) - documentation on setting up / using Windows Terminal
+- [**fonts**](fonts/) -holds all of the custom fonts I'll be using in Windows Terminal.
+- [**icons**](icons/) - holds all icons, be it shell icons or profile icons
+- [**(color) schemes**](schemes/) - Color scheme information. *These don't actually need to be stored as they are kept within the `settings.json`* file.
+- [**themes**](themes/) - theming data
 
-## Which font?
+---
 
-### TL;DR
+## Helpful Articles & Links
 
-* Pick your font family:
-  * If you are limited to monospaced fonts (because of your terminal, etc) then pick a font with `Nerd Font Mono` (or `NFM`).
-  * If you want to have bigger icons (usually around 1.5 normal letters wide) pick a font without `Mono` i.e. `Nerd Font` (or `NF`). Most terminals support this, but ymmv.
-  * If you work in a proportional context (GUI elements or edit a presentation etc) pick a font with `Nerd Font Propo` (or `NFP`).
+- [Customize & Beautify your Windows Terminal (2022 Edition)](https://dev.to/ansonh/customize-beautify-your-windows-terminal-2022-edition-541l)
+- [**How to make Windows Terminal Awesome**: Part 1 -- Medium Article](https://medium.com/illumination/how-to-make-windows-terminal-awesome-part-1-530eedf6eabb)
+- **[Windows Terminal Themes](https://windowsterminalthemes.dev/)**
 
-### Ligatures
+------
 
-Ligatures are generally preserved in the patched fonts.
-Nerd Fonts `v2.0.0` had no ligatures in the `Nerd Font Mono` fonts, this has been dropped with `v2.1.0`.
-If you have a ligature-aware terminal and don't want ligatures you can (usually) disable them in the terminal settings.
-
-### Explanation
-
-Once you narrow down your font choice of family (`Droid Sans`, `Inconsolata`, etc) and style (`bold`, `italic`, etc) you have 2 main choices:
-
-#### `Option 1: Download already patched font`
-
- * For a stable version download a font package from the [release page](https://github.com/ryanoasis/nerd-fonts/releases)
- * Or download the development version from the folders here
-
-#### `Option 2: Patch your own font`
-
- * Patch your own variations with the various options provided by the font patcher (i.e. not include all symbols for smaller font size)
-
-For more information see: [The FAQ](https://github.com/ryanoasis/nerd-fonts/wiki/FAQ-and-Troubleshooting#which-font)
-
-[SIL-RFN]:http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web_fonts_and_RFNs#14cbfd4a
-
+**🤍 2024 [Brenton Holiday](https://brenton.holiday)**
