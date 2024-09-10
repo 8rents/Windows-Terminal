@@ -6,21 +6,29 @@
 
 **Home** **|** [Documentation](docs/README.md) **|** [Images](images/README.md)
 
-----
+---
 
-The `settings` that you are currently inside is all that is needed to sync a brand new version of *Windows Terminal* with my settings. The `settings` folder has everythign that is needed.
+## Installing on Windows
 
-## Windows terminal settings folder
+**For Scoop installs** this repo should be downloaded to:
+
+```bash
+%USERPROFILE%\scoop\apps\windows-terminal\current\settings
+```
 
 All settings information is stored in the `settings.json` file. 
 
-### Additional Directories with the s
+### Additional Directories in the `settings` folder
 
 - [**docs**](docs/) - documentation on setting up / using Windows Terminal
 - [**fonts**](fonts/) -holds all of the custom fonts I'll be using in Windows Terminal.
-- [**icons**](icons/) - holds all icons, be it shell icons or profile icons
-- [**(color) schemes**](schemes/) - Color scheme information. *These don't actually need to be stored as they are kept within the `settings.json`* file.
-- [**themes**](themes/) - theming data
+- [**images**](images/) - Folder to hold different types of images
+  - **[icons](images/icons)** - icons for the different shells (shows up in the list of shells)
+  - **[backgrounds](images/backgrounds])** - Images that can be used as terminal backgrounds
+    - **[animated](images\backgrounds\animated)** - Animated background images
+
+- [](schemes/) - 
+- [**themes**](themes/) - *Same as old `schemes` directory.* Color (t)(sc)heme information. *These don't actually need to be stored as they are kept within the `settings.json`* file.
 
 ---
 
