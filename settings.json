@@ -17,14 +17,15 @@
         {
             "adjustIndistinguishableColors": "indexed",
             "backgroundImage": "%USERPROFILE%\\scoop\\apps\\windows-terminal\\current\\settings\\images\\backgrounds\\Animated\\spinning-stacks.gif",
-            "backgroundImageAlignment": "bottomRight",
+            "backgroundImageAlignment": "center",
             "backgroundImageOpacity": 0.06,
             "backgroundImageStretchMode": "uniformToFill",
             "colorScheme": "One Half Dark",
-            "cursorShape": "underscore",
+            "cursorShape": "bar",
             "font": 
             {
                 "cellHeight": "1.3",
+                "face": "Consolas",
                 "size": 12,
                 "weight": "normal"
             },
@@ -38,16 +39,19 @@
         "list": 
         [
             {
+                "backgroundImage": "C:\\Users\\Techlab\\scoop\\apps\\windows-terminal\\current\\settings\\images\\backgrounds\\animated\\blue-constellations.gif",
                 "commandline": "%USERPROFILE%\\scoop\\apps\\msys2\\current\\msys2_shell.cmd -defterm -here -no-start -msys2 -shell bash",
                 "guid": "{6f0ee3d1-ac4f-48ca-bcf5-a9795f9942d2}",
                 "icon": "ms-appx:///settings/icons/bash.png",
-                "name": "bash",
+                "name": "bash"
             },
             {
+                "backgroundImage": "C:\\Users\\Techlab\\scoop\\apps\\windows-terminal\\current\\settings\\images\\backgrounds\\animated\\half-circle-shuffle.gif",
+                "backgroundImageAlignment": "top",
                 "commandline": "%USERPROFILE%\\scoop\\apps\\msys2\\current\\msys2_shell.cmd -defterm -here -no-start -msys2 -shell zsh",
                 "guid": "{9e554928-79f1-5996-b101-1b4e7acf32a6}",
                 "icon": "ms-appx:///settings/icons/zsh.png",
-                "name": "zsh",
+                "name": "zsh"
             },
             {
                 "backgroundImageAlignment": "bottomRight",
@@ -56,7 +60,7 @@
                 "commandline": "%USERPROFILE%\\scoop\\apps\\msys2\\current\\msys2_shell.cmd -defterm -here -no-start -msys2 -shell fish",
                 "guid": "{3e42746f-e723-54e2-ae37-47dedbfc871e}",
                 "icon": "ms-appx:///settings/icons/fish.png",
-                "name": "fish",
+                "name": "fish"
             },
             {
                 "backgroundImage": "E:\\Repo\\Apps\\Windows\\Portable\\Windows Terminal\\settings\\images\\backgrounds\\animated\\white-cubes.gif",
@@ -65,7 +69,7 @@
                 "commandline": "powershell.exe -nologo -noprofile -executionpolicy bypass",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "icon": "ms-appx:///settings/icons/pwsh.png",
-                "name": "PWSH (No Profile)",
+                "name": "PWSH (No Profile)"
             },
             {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -93,10 +97,12 @@
             }
         ]
     },
+    "schemes": [],
     "tabWidthMode": "compact",
-    "themes": [
+    "themes": 
+    [
         {
-            
+            "name": null
         }
     ],
     "useAcrylicInTabRow": true
