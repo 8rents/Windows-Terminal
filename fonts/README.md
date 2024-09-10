@@ -1,6 +1,6 @@
-# ![Windows Terminal Icon](https://raw.githubusercontent.com/8rents/_/i/h1/windows-terminal.png) Windows Terminal Settings
+# Fonts
 
-> *My personal documentation for configuring and pimping out Windows Terminal*
+> *Saved fonts that work well for windows terminal*
 
 ---
 
@@ -14,7 +14,7 @@ This “top level” settings folder will be [https://github.com/8rents/Windows-
 
 All settings information is stored in the `settings.json` file. 
 
-### Additional Directories with the s
+### Additional Directories with the setti
 
 - [**docs**](docs/) - documentation on setting up / using Windows Terminal
 - [**fonts**](fonts/) -holds all of the custom fonts I'll be using in Windows Terminal.
