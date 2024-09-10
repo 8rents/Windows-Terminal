@@ -1,28 +1,18 @@
-# Themes (and also Schemes) for Windows Terminal
+# (Color) Schemes
 
-> *Windows Terminal, now available without admin and in portable mode.*
-
----
-
-**Home** **|** [Documentation](../docs/README.md) **|** [Images](../images/README.md)
+> *This is a directory of my favorite premade color schemes for Windows Terminal and terminals in general.*
 
 ---
 
-![](https://raw.githubusercontent.com/8rents/_/i/win-terminal.png)
+## How to use
 
----
-
-## How to use these themes & Schemes
-
-How to load a theme from the 
+1. Open Settings and click `Open JSON File` (in the lower Left)
+2. Search or scroll down to `schemes`
+3. In the `schemes` array add in any additional color schemes you want to use.
 
 ## Where to get more premade color schemes?
 
-**Right Here:** https://windowsterminalthemes.dev/
-
-## GitHub Repository
-
-- https://github.com/8rents/Windows-Terminal
+@ https://windowsterminalthemes.dev
 
 ------
 
