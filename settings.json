@@ -47,10 +47,11 @@
             },
             {
                 "backgroundImage": "C:\\Users\\Techlab\\scoop\\apps\\windows-terminal\\current\\settings\\images\\backgrounds\\animated\\half-circle-shuffle.gif",
-                "backgroundImageAlignment": "top",
+                "backgroundImageAlignment": "bottomRight",
+                "backgroundImageStretchMode": "uniformToFill",
                 "commandline": "%USERPROFILE%\\scoop\\apps\\msys2\\current\\msys2_shell.cmd -defterm -here -no-start -msys2 -shell zsh",
                 "guid": "{9e554928-79f1-5996-b101-1b4e7acf32a6}",
-                "icon": "ms-appx:///settings/icons/zsh.png",
+                "icon": "ms-appx:///settings/images/icons/zsh.png",
                 "name": "zsh"
             },
             {
@@ -59,7 +60,7 @@
                 "backgroundImageStretchMode": "none",
                 "commandline": "%USERPROFILE%\\scoop\\apps\\msys2\\current\\msys2_shell.cmd -defterm -here -no-start -msys2 -shell fish",
                 "guid": "{3e42746f-e723-54e2-ae37-47dedbfc871e}",
-                "icon": "ms-appx:///settings/icons/fish.png",
+                "icon": "ms-appx:///settings/images/icons/fish.png",
                 "name": "fish"
             },
             {
@@ -68,7 +69,7 @@
                 "backgroundImageOpacity": 0.04,
                 "commandline": "powershell.exe -nologo -noprofile -executionpolicy bypass",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "icon": "ms-appx:///settings/icons/pwsh.png",
+                "icon": "ms-appx:///settings/images/icons/pwsh.png",
                 "name": "PWSH (No Profile)"
             },
             {
@@ -86,13 +87,13 @@
             {
                 "commandline": "powershell.exe -nologo -noprofile -executionpolicy bypass -file $HOME\\Files\\Sync\\1-powershell-sync.ps1",
                 "guid": "{aaa16d40-bcc8-4b9c-b53d-34b58649ea46}",
-                "icon": "ms-appx:///settings/icons/pwsh-sync.png",
+                "icon": "ms-appx:///settings/images/icons/pwsh-sync.png",
                 "name": "PWSH Sync"
             },
             {
                 "commandline": "powershell.exe -nologo -noprofile -executionpolicy bypass",
                 "guid": "{9df26161-c224-4907-a227-be504ee1a1a4}",
-                "icon": "ms-appx:///settings/icons/pwsh-green.png",
+                "icon": "ms-appx:///settings/images/icons/pwsh-green.png",
                 "name": "PowerShell (Profile)"
             }
         ]
