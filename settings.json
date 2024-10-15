@@ -92,6 +92,11 @@
             },
             {
                 "commandline": "powershell.exe -nologo -noprofile -executionpolicy bypass",
+                "font": 
+                {
+                    "face": "MesloLGM Nerd Font",
+                    "size": 11
+                },
                 "guid": "{9df26161-c224-4907-a227-be504ee1a1a4}",
                 "icon": "ms-appx:///settings/images/icons/pwsh-green.png",
                 "name": "PowerShell (Profile)"
