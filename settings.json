@@ -86,13 +86,14 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "commandline": "powershell.exe -nologo -noprofile -executionpolicy bypass -file $HOME\\Files\\Sync\\1-powershell-sync.ps1",
+                "commandline": "powershell.exe -nologo -noprofile -executionpolicy bypass -file $HOME\\Sync\\all.ps1",
                 "guid": "{aaa16d40-bcc8-4b9c-b53d-34b58649ea46}",
                 "icon": "ms-appx:///settings/images/icons/pwsh-sync.png",
                 "name": "PWSH Sync"
             },
             {
-                "commandline": "powershell.exe -nologo -noprofile -executionpolicy bypass",
+                "backgroundImage": "%USERPROFILE%\\scoop\\apps\\windows-terminal\\current\\settings\\images\\backgrounds\\animated\\blue-constellations.gif",
+                "commandline": "powershell.exe -nologo -noExit -executionpolicy bypass",
                 "font": 
                 {
                     "face": "Hack Nerd Font Mono",
