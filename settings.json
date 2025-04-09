@@ -5,6 +5,7 @@
     "copyFormatting": "none",
     "copyOnSelect": true,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": [],
     "newTabMenu": 
     [
         {
@@ -94,7 +95,7 @@
                 "commandline": "powershell.exe -nologo -noprofile -executionpolicy bypass",
                 "font": 
                 {
-                    "face": "MesloLGM Nerd Font",
+                    "face": "Hack Nerd Font Mono",
                     "size": 11
                 },
                 "guid": "{9df26161-c224-4907-a227-be504ee1a1a4}",
