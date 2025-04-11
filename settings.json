@@ -40,14 +40,20 @@
         "list": 
         [
             {
-                "backgroundImage": "C:\\Users\\Techlab\\scoop\\apps\\windows-terminal\\current\\settings\\images\\backgrounds\\animated\\blue-constellations.gif",
+                "backgroundImage": "%USERPROFILE%\\scoop\\apps\\windows-terminal\\current\\settings\\images\\backgrounds\\animated\\spinny-tube.gif",
+                "backgroundImageAlignment": "center",
                 "commandline": "%USERPROFILE%\\scoop\\apps\\msys2\\current\\msys2_shell.cmd -defterm -here -no-start -msys2 -shell bash",
+                "font": 
+                {
+                    "face": "Hack Nerd Font Mono",
+                    "size": 11
+                },
                 "guid": "{6f0ee3d1-ac4f-48ca-bcf5-a9795f9942d2}",
                 "icon": "ms-appx:///settings/icons/bash.png",
                 "name": "bash"
             },
             {
-                "backgroundImage": "C:\\Users\\Techlab\\scoop\\apps\\windows-terminal\\current\\settings\\images\\backgrounds\\animated\\half-circle-shuffle.gif",
+                "backgroundImage": "%USERPROFILE%\\scoop\\apps\\windows-terminal\\current\\settings\\images\\backgrounds\\animated\\half-circle-shuffle.gif",
                 "backgroundImageAlignment": "bottomRight",
                 "backgroundImageStretchMode": "uniformToFill",
                 "commandline": "%USERPROFILE%\\scoop\\apps\\msys2\\current\\msys2_shell.cmd -defterm -here -no-start -msys2 -shell zsh",
@@ -65,7 +71,7 @@
                 "name": "fish"
             },
             {
-                "backgroundImage": "E:\\Repo\\Apps\\Windows\\Portable\\Windows Terminal\\settings\\images\\backgrounds\\animated\\white-cubes.gif",
+                "backgroundImage": "%USERPROFILE%\\scoop\\apps\\windows-terminal\\current\\settings\\images\\backgrounds\\animated\\white-cubes.gif",
                 "backgroundImageAlignment": "center",
                 "backgroundImageOpacity": 0.04,
                 "commandline": "powershell.exe -nologo -noprofile -executionpolicy bypass",
