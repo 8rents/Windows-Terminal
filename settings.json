@@ -62,10 +62,15 @@
                 "name": "zsh"
             },
             {
-                "backgroundImageAlignment": "bottomRight",
+                "backgroundImageAlignment": "center",
                 "backgroundImageOpacity": 0.11,
-                "backgroundImageStretchMode": "none",
+                "backgroundImageStretchMode": "uniformToFill",
                 "commandline": "%USERPROFILE%\\scoop\\apps\\msys2\\current\\msys2_shell.cmd -defterm -here -no-start -msys2 -shell fish",
+                "font": 
+                {
+                    "face": "Hack Nerd Font Mono",
+                    "size": 11
+                },
                 "guid": "{3e42746f-e723-54e2-ae37-47dedbfc871e}",
                 "icon": "ms-appx:///settings/images/icons/fish.png",
                 "name": "fish"
