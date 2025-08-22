@@ -10,6 +10,12 @@
 
 ## Installing on Windows
 
+Windows terminal can be installed through scoop or direct download
+
+### Install with scoop
+
+Have scoop installed and run
+
 **For Scoop installs** this repo should be downloaded to:
 
 ```bash
@@ -26,18 +32,17 @@ All settings information is stored in the `settings.json` file.
   - **[icons](images/icons)** - icons for the different shells (shows up in the list of shells)
   - **[backgrounds](images/backgrounds])** - Images that can be used as terminal backgrounds
     - **[animated](images\backgrounds\animated)** - Animated background images
-
-- [](schemes/) - 
+- [**schemes**](schemes/) - Color Schemes 
 - [**themes**](themes/) - *Same as old `schemes` directory.* Color (t)(sc)heme information. *These don't actually need to be stored as they are kept within the `settings.json`* file.
 
 ---
 
 ## Helpful Articles & Links
 
-- [Customize & Beautify your Windows Terminal (2022 Edition)](https://dev.to/ansonh/customize-beautify-your-windows-terminal-2022-edition-541l)
+- [**Customize & Beautify your Windows Terminal (2022 Edition)**](https://dev.to/ansonh/customize-beautify-your-windows-terminal-2022-edition-541l)
 - [**How to make Windows Terminal Awesome**: Part 1 -- Medium Article](https://medium.com/illumination/how-to-make-windows-terminal-awesome-part-1-530eedf6eabb)
-- **[Windows Terminal Themes](https://windowsterminalthemes.dev/)**
+- [**Windows Terminal Themes**](https://windowsterminalthemes.dev/)**
 
-------
+---
 
-**🤍 2024 [Brenton Holiday](https://brenton.holiday)**
+**🤍 2025 [8rents](https://github.com/8rents?tab=repositories)**
