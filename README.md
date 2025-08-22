@@ -14,13 +14,18 @@ Windows terminal can be installed through scoop or direct download
 
 ### Install with scoop
 
-Have scoop installed and run
+1. Have scoop installed and run:
 
-**For Scoop installs** this repo should be downloaded to:
+  ```bash
+  scoop install windows-terminal
+  ```
 
-```bash
+2. Then clone this repo to the following location:
+  ```bash
 %USERPROFILE%\scoop\apps\windows-terminal\current\settings
-```
+  ```
+
+> *The cloned repo should be named `settings`*
 
 All settings information is stored in the `settings.json` file. 
 
