@@ -50,12 +50,6 @@
 
 ![white-cubes](../backgrounds/animated/white-cubes.gif)
 
----
-
-## GitHub Repository
-
-- https://github.com/8rents/Windows-Terminal
-
 ------
 
 **🤍 2024 [Brenton Holiday](https://brenton.holiday)**
