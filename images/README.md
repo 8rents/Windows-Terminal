@@ -2,7 +2,7 @@
 
 ----
 
-# ![Windows Terminal Icon](https://raw.githubusercontent.com/8rents/_/i/h1/windows-terminal.png)  Images for Windows Terminal 
+# ![Windows Terminal Icon](https://raw.githubusercontent.com/8rents/_/i/h1/windows-terminal.png)  Images *for* Windows Terminal 
 
 > *My Personal Collection of images for use with Windows Terminal*
 
