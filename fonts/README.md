@@ -16,17 +16,12 @@ All settings information is stored in the `settings.json` file.
 
 ### Additional Directories with the setti
 
-- [**docs**](docs/) - documentation on setting up / using Windows Terminal
-- [**fonts**](fonts/) -holds all of the custom fonts I'll be using in Windows Terminal.
-- [**images**](images/) - holds all icons, be it shell icons or profile icons
-- [**(color) schemes**](schemes/) - Color scheme information. *These don't actually need to be stored as they are kept within the `settings.json`* file.
-- [**themes**](themes/) - theming data
+- [**docs**](docs/README.md) - documentation on setting up / using Windows Terminal
+- [**fonts**](fonts/README.md) -holds all of the custom fonts I'll be using in Windows Terminal.
+- [**images**](images/README.md) - holds all icons, be it shell icons or profile icons
+- [**themes**](themes/README.md) - theming data
 
 ---
-
-## GitHub Repository
-
-- https://github.com/8rents/Windows-Terminal
 
 ## Other Helpful Articles & Links
 
