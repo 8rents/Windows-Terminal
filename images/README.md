@@ -70,23 +70,26 @@
 ---
 
 <img src="./icons/bash.png" alt="bash" style="zoom:10%;" />
-`bash.png`
+
+### `bash.png`
 
 ---
 
  <img src="./icons/fish.png" alt="fish" style="zoom:40%;" />
-`fish.png`
+
+### `fish.png`
 
 ---
 
  <img src="./icons/powershell.png" alt="powershell" style="zoom:15%;" />
-`powershell.png` 
+
+### `powershell.png` 
 
 ---
 
 <img src="./icons/zsh.png" alt="zsh" style="zoom:30%;" />
 
-`zsh.png`
+### `zsh.png`
 
 ------
 
