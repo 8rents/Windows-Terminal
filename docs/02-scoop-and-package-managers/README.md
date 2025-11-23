@@ -2,18 +2,15 @@
 
 ---
 
-# ![Scoop Icon](https://raw.githubusercontent.com/8rents/_/i/h1/scoop.png) Package Management & Scoop 
+*This is **part 2** in* [**Windows Terminal Docs**](../README.md)
 
-**in [Windows Terminal](../)**
+# ![Scoop Icon](https://raw.githubusercontent.com/8rents/_/i/h1/scoop.png) Package Management & Scoop 
 
 >  *Understanding package management for Windows and using Scoop as my primary Package manager*
 
 ---
 
-This is **part 2** in [**Windows Terminal Docs**](../)
-
-**◀ Previous** 
-[**Part 1**: Portable Set Up & Configuration](../01-portable-setup-configs/)
+**◀ Previous**: [**Part 1**: Portable Set Up & Configuration](../01-portable-setup-configs/README.md)
 
 ---
 
@@ -99,9 +96,8 @@ Scoop will be my primary package manager for Windows and PowerShell. It differs 
 https://github.com/ScoopInstaller/Scoop/wiki/Example-Setup-Scripts
 
 ---
-
+[**Part 3:** Package Management & Scoop ](../03-msys2-bash-zsh-shells/README.md)
 **Next** ▶
-[**Part 3:** Package Management & Scoop ](../03-msys2-bash-zsh-shells/)
 
 ---
 

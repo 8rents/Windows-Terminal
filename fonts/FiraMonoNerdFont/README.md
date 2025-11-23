@@ -1,4 +1,8 @@
-# Nerd Fonts
+[Home](../../README.md) **|** [Documentation](../../docs/README.md) **|** **[Images](../../images/README.md)**
+
+---
+
+# Nerd Fonts / FiraMono
 
 This is an archived font from the Nerd Fonts release v3.2.1.
 

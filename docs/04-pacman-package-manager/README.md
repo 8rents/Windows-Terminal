@@ -1,19 +1,15 @@
 [Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
-
 ---
 
-# ![Pacman Package Manager](https://raw.githubusercontent.com/8rents/_/i/h1/pacman.png)  Pacman Package Manager 
+*This is **part 4** in* [**Windows Terminal Docs**](../README.md)
 
-**in msys2 bash in [Windows Terminal](../README.md)**
+# ![Pacman Package Manager](https://raw.githubusercontent.com/8rents/_/i/h1/pacman.png)  Pacman Package Manager 
 
 > *Pacman is the default package manager for Arch Linux. It's available to use through msys2 installed on Windows.*
 
 ---
 
-This is **part 4** in [**Windows Terminal Docs**](../README.md)
-
-**◀ Previous** 
-[**Part 3**: Msys2 ZSH / Bash Shells](../03-msys2-bash-zsh-shells/README.md)
+**◀ Previous**: [**Part 3**: Msys2 ZSH / Bash Shells](../03-msys2-bash-zsh-shells/README.md)
 
 ---
 
@@ -86,9 +82,8 @@ pacman -Qs smplayer
 - [Pacman Overview / Manjaro Linux Help Pages](https://wiki.manjaro.org/index.php/Pacman_Overview)
 
 ---
-
-**Next** ▶
 [**Part 5:** Node.js, NVM & NPM](../05-node-and-version-and-package-manager/README.md)
+**Next** ▶
 
 ---
 

@@ -1,19 +1,15 @@
 [Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
-
 ---
+
+*This is **part 6** in* [**Windows Terminal Docs**](../)
 
 # ![Docker Icon](https://raw.githubusercontent.com/8rents/_/i/h1/docker.png) Using Docker Containers 
 
-**in [Windows Terminal](../)**
-
-> *Containerized enviornments now available for windows without admin!*
+> *Containerized enviornments now available for windows without admin!
 
 ---
 
-This is **part 6** in [**Windows Terminal Docs**](../)
-
-**◀ Previous** 
-[**Part 5**: Node.js, NVM & NPM](../05-node-and-version-and-package-manager/)
+**◀ Previous**: [**Part 5**: Node.js, NVM & NPM](../05-node-and-version-and-package-manager/README.md)
 
 ---
 
@@ -27,8 +23,8 @@ Well, it doesn’t appear that Docker is going to work out on a Limited Windows 
 
 ---
 
+[**Part 7:** Integrating vsCode with Windows Terminal](../07-vscode-integration/README.md)
 **Next** ▶
-[**Part 7:** Integrating vsCode with Windows Terminal](../07-vscode-integration/)
 
 ---
 

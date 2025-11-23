@@ -10,9 +10,11 @@
 
 ## Animated Background Images
 
-####  `images/backgrounds/animated/` 
+> **Working Directory: `images/backgrounds/animated/`**
 
-Pretty Nifty huh?
+---
+
+*Pretty Nifty huh?*
 
 ---
 
@@ -56,7 +58,9 @@ Pretty Nifty huh?
 
 ## Shell Icons
 
-#### `images/icons/` 
+> **Working Directory: `images/icons/`** 
+
+---
 
 <img src="./icons/bash.png" alt="bash" style="zoom:10%;" />
 `bash.png`

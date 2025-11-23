@@ -2,16 +2,15 @@
 
 ---
 
+This is **part 7** in [**Windows Terminal Docs**](../README.md)
+
 # ![Windows Terminal Icon](https://raw.githubusercontent.com/8rents/_/i/h1/windows-terminal.png) Integrating vsCode with Windows Terminal 
 
 > *Integrating WT with the best IDE of the time*
 
-----
+---
 
-This is **part 7** in [**Windows Terminal Docs**](../)
-
-**◀ Previous** 
-[**Part 6**: Docker](../06-docker/)
+**◀ Previous**: [**Part 6**: Docker](../06-docker/README.md)
 
 ---
 

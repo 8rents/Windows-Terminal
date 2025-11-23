@@ -2,18 +2,15 @@
 
 ---
 
-# ![Scoop Icon](https://raw.githubusercontent.com/8rents/_/i/h1/bash.png) Msys2 ZSH / Bash Shells
+*This is **part 3** in* [**Windows Terminal Docs**](../)
 
-**in [Windows Terminal](../)**
+# ![Scoop Icon](https://raw.githubusercontent.com/8rents/_/i/h1/bash.png) Msys2 ZSH / Bash Shells
 
 > ***Finally, being able to effectively use ZSH / bash in Windows without WSL installed.***
 
 ---
 
-This is **part 3** in [**Windows Terminal Docs**](../)
-
-**◀ Previous** 
-[**Part 2**: Package Management & Scoop](../02-scoop-and-package-managers/)
+**◀ Previous**: [**Part 2**: Package Management & Scoop](../02-scoop-and-package-managers/README.md)
 
 ---
 
@@ -286,9 +283,8 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 ```
 
 ---
-
+[**Part 4:** Pacman Package Manager](../04-pacman-package-manager/README.md)
 **Next** ▶
-[**Part 4:** Pacman Package Manager](../04-pacman-package-manager/)
 
 ---
 
