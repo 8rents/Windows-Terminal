@@ -8,15 +8,33 @@
 
 ---
 
-## Animated Background Images
+> **Working Directory: `images/icons/`** 
 
-Pretty Nifty huh?
+---
 
-![blue-constellations](./backgrounds/animated/blue-constellations.gif) ![half-circle-shuffle](./backgrounds/animated/half-circle-shuffle.gif) ![spectrum-triangle](./backgrounds/animated/spectrum-triangle.gif) ![spinning-stacks](./backgrounds/animated/spinning-stacks.gif) ![spinny-tube](./backgrounds/animated/spinny-tube.gif) ![white-cubes](./backgrounds/animated/white-cubes.gif)
+<img src="./bash.png" alt="bash" style="zoom:10%;" />
 
-## Shell Icons
+### `bash.png`
 
-<img src="./icons/bash.png" alt="bash" style="zoom:10%;" /> <img src="./icons/fish.png" alt="fish" style="zoom:40%;" /> <img src="./icons/powershell.png" alt="powershell" style="zoom:15%;" /> <img src="./icons/zsh.png" alt="zsh" style="zoom:50%;" />
+---
+
+ <img src="./fish.png" alt="fish" style="zoom:40%;" />
+
+### `fish.png`
+
+---
+
+ <img src="./powershell.png" alt="powershell" style="zoom:15%;" />
+
+### `powershell.png` 
+
+---
+
+<img src="./zsh.png" alt="zsh" style="zoom:30%;" />
+
+### `zsh.png`
+
+
 
 ------
 
