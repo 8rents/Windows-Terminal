@@ -1,12 +1,12 @@
+[Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
+
+---
+
 # ![Scoop Icon](https://raw.githubusercontent.com/8rents/_/i/h1/bash.png) Msys2 ZSH / Bash Shells
 
 **in [Windows Terminal](../)**
 
 > ***Finally, being able to effectively use ZSH / bash in Windows without WSL installed.***
-
----
-
-[Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
 
 ---
 

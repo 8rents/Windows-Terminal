@@ -1,12 +1,12 @@
+[Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
+
+---
+
 # ![Docker Icon](https://raw.githubusercontent.com/8rents/_/i/h1/docker.png) Using Docker Containers 
 
 **in [Windows Terminal](../)**
 
 > *Containerized enviornments now available for windows without admin!*
-
----
-
-[Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
 
 ---
 

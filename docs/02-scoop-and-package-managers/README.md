@@ -1,12 +1,12 @@
+[Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
+
+---
+
 # ![Scoop Icon](https://raw.githubusercontent.com/8rents/_/i/h1/scoop.png) Package Management & Scoop 
 
 **in [Windows Terminal](../)**
 
 >  *Understanding package management for Windows and using Scoop as my primary Package manager*
-
----
-
-[Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
 
 ---
 
@@ -86,9 +86,7 @@ Scoop will be my primary package manager for Windows and PowerShell. It differs 
 
 3. Now run the installer locally and pass a custom parameter to name a different directory to install to
 
-   ```
    
-   ```
 
 ---
 

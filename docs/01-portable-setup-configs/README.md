@@ -1,12 +1,12 @@
+[Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
+
+---
+
 # ![Windows Terminal Icon](https://raw.githubusercontent.com/8rents/_/i/h1/windows-terminal.png)  Portable Set Up & Configurations 
 
 **in [Windows Terminal](../)**
 
 > *How to set up Windows Terminal in Portable Mode & back up all settings.*
-
----
-
-[Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
 
 ---
 

@@ -1,4 +1,8 @@
-# (Color) Schemes
+**Home** **|** [Documentation](docs/README.md) **|** [Images](images/README.md)
+
+---
+
+# Themes & Schemes
 
 > *This is a directory of my favorite premade color schemes for Windows Terminal and terminals in general.*
 
@@ -16,4 +20,4 @@
 
 ------
 
-**🤍 2024 [Brenton Holiday](https://brenton.holiday)**
+**🤍 2025 [Brenton Holiday](https://brenton.holiday)**

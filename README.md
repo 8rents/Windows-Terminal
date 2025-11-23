@@ -1,10 +1,10 @@
-# ![Windows Terminal Icon](https://raw.githubusercontent.com/8rents/_/i/h1/windows-terminal.png) Windows Terminal Settings
-
-> *My personal documentation for configuring and pimping out Windows Terminal*
+**Home** **|** [Documentation](docs/README.md) **|** [Images](images/README.md)
 
 ---
 
-**Home** **|** [Documentation](docs/README.md) **|** [Images](images/README.md)
+# ![Windows Terminal Icon](https://raw.githubusercontent.com/8rents/_/i/h1/windows-terminal.png) Windows Terminal Settings
+
+> *My personal documentation for configuring and pimping out Windows Terminal*
 
 ---
 

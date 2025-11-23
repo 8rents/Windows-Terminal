@@ -1,21 +1,19 @@
+[Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
+---
+
 # ![Windows Terminal Icon](https://raw.githubusercontent.com/8rents/_/i/h1/windows-terminal.png)  Windows Terminal Docs
 
 > ***My personal documentation for configuring and pimping out Windows Terminal***
 
 ---
 
-[Home](../../README.md) **|** **Documentation** **|** **[Images](../../images/README.md)**
-
----
-
 ## Table of Contents
 
-1. [Installation & Portable Set up](01-portable-setup-configs/)
-2. [Using Msys2](02-scoop-and-package-managers/)
-3. [Configuring Bash / ZSH](03-msys2-bash-zsh-shells/)
+1. [Installation & Portable Set up](01-portable-setup-configs/README.md)
+2. [Using Msys2](02-scoop-and-package-managers/README.md)
+3. [Configuring Bash / ZSH](03-msys2-bash-zsh-shells/README.md)
 4. [Pacman Package manager](04-pacman-package-manager/)
 5. [Running node.js](05-node-and-version-and-package-manager/)
-6. [Running Docker & Compose](06-docker/)
 7. [vsCode Integration](07-vscode-integration/)
 
 ---

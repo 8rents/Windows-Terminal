@@ -1,10 +1,10 @@
-# Fonts
-
-> *Saved fonts that work well for windows terminal*
+[Home](../../README.md) **|** [Documentation](../../docs/README.md) **|** **[Images](../../images/README.md)**
 
 ---
 
-[Home](../../README.md) **|** [Documentation](../../docs/README.md) **|** **[Images](../../images/README.md)**
+# Fonts
+
+> *Saved fonts that work well for windows terminal*
 
 ---
 
