@@ -29,16 +29,18 @@ Windows terminal can be installed through scoop or direct download
 
 All settings information is stored in the `settings.json` file. 
 
+---
+
 ### Additional Directories in the `settings` folder
 
-- [**docs**](docs/) - documentation on setting up / using Windows Terminal
-- [**fonts**](fonts/) -holds all of the custom fonts I'll be using in Windows Terminal.
-- [**images**](images/) - Folder to hold different types of images
-  - **[icons](images/icons)** - icons for the different shells (shows up in the list of shells)
-  - **[backgrounds](images/backgrounds])** - Images that can be used as terminal backgrounds
-    - **[animated](images\backgrounds\animated)** - Animated background images
-- [**schemes**](schemes/) - Color Schemes 
-- [**themes**](themes/) - *Same as old `schemes` directory.* Color (t)(sc)heme information. *These don't actually need to be stored as they are kept within the `settings.json`* file.
+- [**docs**](docs/README.md) - documentation on setting up / using Windows Terminal
+- [**fonts**](fonts/README.md) -holds all of the custom fonts I'll be using in Windows Terminal.
+- [**images**](images/README.md) - Folder to hold different types of images
+  - **[icons](images/icons/README.md)** - icons for the different shells (shows up in the list of shells)
+  - **[backgrounds](images/backgrounds/README.md)** - Images that can be used as terminal backgrounds
+    - **[animated](images/backgrounds/animated/README.md)** - Animated background images
+- [**schemes**](schemes/README.md) - Color Schemes 
+- [**themes**](themes/README.md) - *Same as old `schemes` directory.* Color (t)(sc)heme information. *These don't actually need to be stored as they are kept within the `settings.json`* file.
 
 ---
 
