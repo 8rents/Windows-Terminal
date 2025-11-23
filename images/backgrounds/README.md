@@ -8,13 +8,49 @@
 
 ---
 
-## Animated background images for Windows Terminal
+## Animated Background Images
 
-Pretty Nifty huh?
+> **Working Directory: `images/backgrounds/animated/`**
 
-![blue-constellations](./animated/blue-constellations.gif) ![half-circle-shuffle](./animated/half-circle-shuffle.gif) ![spectrum-triangle](./animated/spectrum-triangle.gif) ![spinning-stacks](./animated/spinning-stacks.gif) ![spinny-tube](./animated/spinny-tube.gif) ![white-cubes](./animated/white-cubes.gif)
+---
+
+###  `blue-constellations.gif`
+
+![blue-constellations](./animated/blue-constellations.gif)
 
 
+
+---
+
+### `half-circle-shuffle.gif`
+
+![half-circle-shuffle](./animated/half-circle-shuffle.gif) 
+
+---
+
+### `spectrum-triangle.gif`
+
+![spectrum-triangle](./animated/spectrum-triangle.gif) 
+
+---
+
+### `spinning-stacks.gif`
+
+![spinning-stacks](./animated/spinning-stacks.gif) 
+
+---
+
+### `spinny-tube.gif`
+
+![spinny-tube](./animated/spinny-tube.gif) 
+
+---
+
+### `white-cubes.gif`
+
+![white-cubes](../backgrounds/animated/white-cubes.gif)
+
+---
 
 ## GitHub Repository
 
