@@ -10,13 +10,72 @@
 
 ## Animated Background Images
 
+####  `images/backgrounds/animated/` 
+
 Pretty Nifty huh?
 
-![blue-constellations](./backgrounds/animated/blue-constellations.gif) ![half-circle-shuffle](./backgrounds/animated/half-circle-shuffle.gif) ![spectrum-triangle](./backgrounds/animated/spectrum-triangle.gif) ![spinning-stacks](./backgrounds/animated/spinning-stacks.gif) ![spinny-tube](./backgrounds/animated/spinny-tube.gif) ![white-cubes](./backgrounds/animated/white-cubes.gif)
+---
+
+###  `blue-constellations.gif`
+
+![blue-constellations](./backgrounds/animated/blue-constellations.gif)
+
+
+
+---
+
+### `half-circle-shuffle.gif`
+
+![half-circle-shuffle](./backgrounds/animated/half-circle-shuffle.gif) 
+
+---
+
+### `spectrum-triangle.gif`
+
+![spectrum-triangle](./backgrounds/animated/spectrum-triangle.gif) 
+
+---
+
+### `spinning-stacks.gif`
+
+![spinning-stacks](./backgrounds/animated/spinning-stacks.gif) 
+
+---
+
+### `spinny-tube.gif`
+
+![spinny-tube](./backgrounds/animated/spinny-tube.gif) 
+
+---
+
+### `white-cubes.gif`
+
+![white-cubes](./backgrounds/animated/white-cubes.gif)
+
+---
 
 ## Shell Icons
 
-<img src="./icons/bash.png" alt="bash" style="zoom:10%;" /> <img src="./icons/fish.png" alt="fish" style="zoom:40%;" /> <img src="./icons/powershell.png" alt="powershell" style="zoom:15%;" /> <img src="./icons/zsh.png" alt="zsh" style="zoom:50%;" />
+#### `images/icons/` 
+
+<img src="./icons/bash.png" alt="bash" style="zoom:10%;" />
+`bash.png`
+
+---
+
+ <img src="./icons/fish.png" alt="fish" style="zoom:40%;" />
+`fish.png`
+
+---
+
+ <img src="./icons/powershell.png" alt="powershell" style="zoom:15%;" />
+`powershell.png` 
+
+---
+
+<img src="./icons/zsh.png" alt="zsh" style="zoom:30%;" />
+
+`zsh.png`
 
 ------
 
