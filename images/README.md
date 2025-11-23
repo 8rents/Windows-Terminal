@@ -8,6 +8,13 @@
 
 ---
 
+## Types of Images
+
+- **[Background Images](#animated-background-images)** - These types of images can be used as the background to the whole terminal window.
+- [**Icons**](#shell-icons) - These types of images are used to bring attention to smaller elements and give more character to each selection.
+
+---
+
 ## Animated Background Images
 
 > **Working Directory: `images/backgrounds/animated/`**
